@@ -1,6 +1,6 @@
 #!bin/bash
 
-cp mongo.repo /etc/yum.repos.d/mongo.repo
+cp /home/centos/Shell/Mongodb/mongo.repo /etc/yum.repos.d/mongo.repo
 
 yum install mongodb-org -y
 
