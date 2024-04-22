@@ -18,7 +18,7 @@ unzip /tmp/catalogue.zip
 
 npm install 
 
-cp /home/centos/Shell/Catalogue/catalogue.service /etc/systemd/system/catalogue.service
+cp /home/centos/Shell/catalogue/catalogue.service /etc/systemd/system/catalogue.service
 
 systemctl daemon-reload
 
@@ -26,7 +26,7 @@ systemctl enable catalogue
 
 systemctl start catalogue
 
-cp /home/centos/Shell/Catalogue/mongo.repo /etc/yum.repos.d/mongo.repo
+cp /home/centos/Shell/catalogue/mongo.repo /etc/yum.repos.d/mongo.repo
 
 yum install mongodb-org-shell -y
 
