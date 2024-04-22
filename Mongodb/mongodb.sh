@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 cp /home/centos/Shell/Mongodb/mongo.repo /etc/yum.repos.d/mongo.repo
 
